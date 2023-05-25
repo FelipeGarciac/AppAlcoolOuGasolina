@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		A52464FF2A201AAB003A9906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52464FE2A201AAB003A9906 /* AppDelegate.swift */; };
 		A52465012A201AAB003A9906 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52465002A201AAB003A9906 /* SceneDelegate.swift */; };
-		A52465032A201AAB003A9906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52465022A201AAB003A9906 /* ViewController.swift */; };
+		A52465032A201AAB003A9906 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52465022A201AAB003A9906 /* HomeVC.swift */; };
 		A52465082A201AB2003A9906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52465072A201AB2003A9906 /* Assets.xcassets */; };
 		A524650B2A201AB2003A9906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52465092A201AB2003A9906 /* LaunchScreen.storyboard */; };
+		A52465152A2026A3003A9906 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52465142A2026A3003A9906 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A52464FB2A201AAB003A9906 /* AlcoolOuGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlcoolOuGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52464FE2A201AAB003A9906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52465002A201AAB003A9906 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A52465022A201AAB003A9906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A52465022A201AAB003A9906 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A52465072A201AB2003A9906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A524650A2A201AB2003A9906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A524650C2A201AB2003A9906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52465142A2026A3003A9906 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		A52464FD2A201AAB003A9906 /* AlcoolOuGasolina */ = {
 			isa = PBXGroup;
 			children = (
+				A52465122A20264E003A9906 /* HOME */,
 				A52464FE2A201AAB003A9906 /* AppDelegate.swift */,
 				A52465002A201AAB003A9906 /* SceneDelegate.swift */,
-				A52465022A201AAB003A9906 /* ViewController.swift */,
 				A52465072A201AB2003A9906 /* Assets.xcassets */,
 				A52465092A201AB2003A9906 /* LaunchScreen.storyboard */,
 				A524650C2A201AB2003A9906 /* Info.plist */,
 			);
 			path = AlcoolOuGasolina;
+			sourceTree = "<group>";
+		};
+		A52465122A20264E003A9906 /* HOME */ = {
+			isa = PBXGroup;
+			children = (
+				A52465132A20266B003A9906 /* Screen */,
+				A52465022A201AAB003A9906 /* HomeVC.swift */,
+			);
+			path = HOME;
+			sourceTree = "<group>";
+		};
+		A52465132A20266B003A9906 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A52465142A2026A3003A9906 /* HomeScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52465032A201AAB003A9906 /* ViewController.swift in Sources */,
+				A52465152A2026A3003A9906 /* HomeScreen.swift in Sources */,
+				A52465032A201AAB003A9906 /* HomeVC.swift in Sources */,
 				A52464FF2A201AAB003A9906 /* AppDelegate.swift in Sources */,
 				A52465012A201AAB003A9906 /* SceneDelegate.swift in Sources */,
 			);
